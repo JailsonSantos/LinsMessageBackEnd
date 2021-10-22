@@ -1,0 +1,48 @@
+# Inciando o projeto
+## Requisitos globais
+express, typescript, prisma
+
+## configurando o package.json
+yarn init -y 
+
+## configurando o tsconfig.json
+yarn tsc --init
+
+## Instando o express e typescript
+yarn add express typescript
+
+## Instalando o Primas
+yarn add prisma -D 
+yarn prisma init
+
+### Tipagens
+yarn add -D @types/express typescript ts-node-dev
+
+## yarn add dotenv
+
+## Dependência Axios
+yarn add axios 
+yarn add @types/axios -D
+
+# Instalar o Insonia
+
+## JSON WEB TOKEN (Dependência)
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
+
+## Migrates Prisma
+yarn prisma migrate dev
+
+- CTRL + SHIFT + P (reload da pagina)
+- yarn prisma studio (gera url, com dados inseridos no banco)
+
+## (dependencias)
+- yarn add socket.io 
+- yarn add @types/socket.io -D
+
+## (dependencias)
+- yarn add cors 
+- yarn add @types/cors -D
+
+## Gerar novo Token
+- http://localhost:4000/github
